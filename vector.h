@@ -1,3 +1,4 @@
+//vector.h
 #ifndef VECTOR_H
 #define VECTOR_H
 
@@ -33,6 +34,8 @@ void vector_push_back_int(vector_int *v, int c);
 void read_from_file(vector_int *string, vector_int *colomn, vector *value, int *num_strings, int *num_colomns);
 void resize_int(vector_int *v);
 void vector_print_int(vector_int *v);
+
+//vector.c
 void vector_create(vector *v,int size){
     v->capacity = size;
     v->number_of_elements = 0;
