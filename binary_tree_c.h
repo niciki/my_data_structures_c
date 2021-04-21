@@ -33,7 +33,7 @@ void tree_print (tree * node) {
       printf(";");
       return;
   }
-  printf ("%d->",node->data);
+  printf ("%d->", node->data);
   tree_print (node->left);
   tree_print (node->right);
 }
